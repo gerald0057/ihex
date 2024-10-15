@@ -126,7 +126,7 @@ typedef int ihex_count_t;
 // can be used to limit memory footprint on embedded systems, e.g.,
 // most programs with IHEX output use 32.
 #ifndef IHEX_LINE_MAX_LENGTH
-#define IHEX_LINE_MAX_LENGTH 255
+#define IHEX_LINE_MAX_LENGTH 16
 #endif
 
 enum ihex_flags {
